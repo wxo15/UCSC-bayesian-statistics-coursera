@@ -1,4 +1,4 @@
-# Data Warehousing for Business Intelligence Specialization (Coursera)
+# Bayesian Statistics Specialization (Coursera)
 
 [Bayesian Statistics](https://www.coursera.org/specializations/bayesian-statistics) offered by University of California, Santa Cruz through Coursera.
 
