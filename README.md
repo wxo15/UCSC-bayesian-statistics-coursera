@@ -10,6 +10,16 @@
 * [Course 5](https://www.coursera.org/learn/bayesian-statistics-capstone) - Bayesian Statistics: Capstone Project - **Not available**
 
 
+## Certs
+* [Course 1](https://coursera.org/share/68c88d4b78642581c94e9ddffafd1143)
+* [Course 2](https://coursera.org/share/c7cb355ea3273d8938cfad07e5eb4528)
+* [Course 3](https://coursera.org/share/fac56a7e77dae54e6a29c21ad3ac455c)
+
+
+## Projects
+* [Course 2](https://github.com/wxo15/UCSC-bayesian-statistics-coursera/blob/main/Course%202%20-%20Bayesian%20Statistics:%20Techniques%20and%20Models/Slides/Module05/report.pdf)
+
+
 ## Tools
 - R
 - JAGS
