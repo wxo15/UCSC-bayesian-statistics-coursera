@@ -1,0 +1,14 @@
+Use a gamma prior to inject effective sample size and mean to the Poisson likelihood. 
+
+For prior Gamma(alpha, beta):
+mean = alpha / beta
+effective size = beta
+
+Posterior = Gamma(alpha + sum(y), beta + n)
+effective size = beta + n
+New mean = (alpha + sum(y))/ (beta + n) = weighted mean of prior and new sample.
+
+Allow sequential update using new values, and would be the same result as having all the samples at once! Same as binomial case!
+
+
+If want a small prior effect, can act like prior is Gamma(epsilon,epsilon), where epsilon is very small to make weight small, so posterior becomes Gamma(sum(y), n). Otherwise, fit alpha and beta with prior mean and prior std dev (sqrt(alpha)/beta)

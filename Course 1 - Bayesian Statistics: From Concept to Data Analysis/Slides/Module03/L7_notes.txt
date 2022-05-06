@@ -1,0 +1,16 @@
+Use a beta prior to inject effective sample size and mean to the Binomial likelihood. 
+
+For prior Beta(alpha, beta):
+effective sample size = alpha + beta
+mean = alpha / (alpha + beta)
+
+Posterior = Beta(alpha + sum(y), beta + n - sum(y))
+New effective sample size = alpha + beta + n
+New mean = (alpha + sum(y))/ (alpha + beta + n) = weighted mean of prior and new sample.
+
+Allow sequential update using new values, and would be the same result as having all the samples at once!
+
+
+If want a uniform prior, can act like prior is Beta(1,1), so posterior becomes Beta(sum(y) + 1, 1 + n - sum(y))
+
+If want prior with very small prior effect, can use Beta(0,0), but it would be improper prior

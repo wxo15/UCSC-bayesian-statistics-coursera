@@ -1,0 +1,8 @@
+L4 - Metropolis-Hasting
+
+q = symmetric proposal distribution
+
+Try to use a symmetric q, to cancel out in the acceptance ratio
+
+random walk vs independent
+

@@ -1,0 +1,10 @@
+Use a gamma prior to inject effective sample size and mean to the Exponential likelihood. 
+
+For prior Gamma(alpha, beta):
+mean = alpha / beta
+effective size = beta
+
+Posterior = Gamma(alpha + n, beta + sum(y))
+effective size = beta + y
+New mean = (alpha + 1)/ (beta + y) = weighted mean of prior and new sample. New data point worth "y" sample with the mean of 1/y.
+
